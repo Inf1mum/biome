@@ -1,8 +1,8 @@
 use super::{imports::MAX_NAMESPACE_IMPORT_MEMBER_STEPS, resolver::ResolutionCtx};
 use crate::{js_module_info::TsBindingReferenceExt, module_for_key, module_graph::ModuleInfoKind};
 use biome_js_type_info::{
-    Path, TypeImportQualifier, TypeReference, TypeReferenceQualifier, TypeResolverLevel,
-    global_type_id_for_qualifier,
+    ObjectKind, Path, TypeImportQualifier, TypeReference, TypeReferenceQualifier,
+    TypeResolverLevel, global_type_id_for_qualifier,
     interned_types::{
         InternedObject as InferredObject, Literal as InferredLiteral, LocalTypeHandle, LocalTypeId,
         TypeData as InferredTypeData, TypeMember as InferredTypeMember,
@@ -632,6 +632,7 @@ impl<'db> ResolutionCtx<'db, '_> {
                     None,
                     members.into_boxed_slice(),
                     has_unknown_members,
+                    ObjectKind::Shape,
                 ))
             },
         )
@@ -658,6 +659,7 @@ impl<'db> ResolutionCtx<'db, '_> {
                 object.prototype(self.db),
                 object.members(self.db).clone(),
                 true,
+                object.kind(self.db),
             ))
         } else {
             ty

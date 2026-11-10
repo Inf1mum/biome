@@ -9026,6 +9026,7 @@ fn global_reflect_apply() -> crate::TypeData {
             },
         ]),
         has_unknown_members: false,
+        kind: crate::ObjectKind::Shape,
     })
 }
 fn global_reflect_construct() -> crate::TypeData {
@@ -9042,6 +9043,7 @@ fn global_reflect_construct() -> crate::TypeData {
             },
         ]),
         has_unknown_members: false,
+        kind: crate::ObjectKind::Shape,
     })
 }
 fn global_reflect_define_property() -> crate::TypeData {
@@ -9250,6 +9252,7 @@ fn global_reflect_set() -> crate::TypeData {
             },
         ]),
         has_unknown_members: false,
+        kind: crate::ObjectKind::Shape,
     })
 }
 fn global_reflect_set_prototype_of() -> crate::TypeData {
@@ -10012,6 +10015,7 @@ fn global_intl() -> crate::TypeData {
             },
         ]),
         has_unknown_members: false,
+        kind: crate::ObjectKind::Shape,
     })
 }
 fn global_reflect() -> crate::TypeData {
@@ -10076,6 +10080,7 @@ fn global_reflect() -> crate::TypeData {
             },
         ]),
         has_unknown_members: false,
+        kind: crate::ObjectKind::Shape,
     })
 }
 fn global_symbol_iterator() -> crate::TypeData {
@@ -10781,6 +10786,7 @@ static OBJECT_LOCAL_TYPES: std::sync::LazyLock<[crate::TypeData; 67]> =
                     ty: crate::RawTypeId::Local(crate::TypeId::new(31)).into(),
                 }]),
                 has_unknown_members: false,
+                kind: crate::ObjectKind::Shape,
             }),
             crate::TypeData::from(crate::GenericTypeParameter {
                 is_const: false,
@@ -10928,6 +10934,7 @@ static OBJECT_LOCAL_TYPES: std::sync::LazyLock<[crate::TypeData; 67]> =
                 prototype: None,
                 members: Box::new([]),
                 has_unknown_members: false,
+                kind: crate::ObjectKind::Shape,
             }),
             crate::TypeData::from(crate::GenericTypeParameter {
                 is_const: false,
@@ -11179,6 +11186,7 @@ static OBJECT_LOCAL_TYPES: std::sync::LazyLock<[crate::TypeData; 67]> =
                     },
                 ]),
                 has_unknown_members: false,
+                kind: crate::ObjectKind::Shape,
             }),
             crate::TypeData::from(crate::Object {
                 prototype: None,
@@ -11197,6 +11205,7 @@ static OBJECT_LOCAL_TYPES: std::sync::LazyLock<[crate::TypeData; 67]> =
                     },
                 ]),
                 has_unknown_members: false,
+                kind: crate::ObjectKind::Shape,
             }),
             crate::TypeData::from(crate::Object {
                 prototype: None,
@@ -11211,6 +11220,7 @@ static OBJECT_LOCAL_TYPES: std::sync::LazyLock<[crate::TypeData; 67]> =
                     },
                 ]),
                 has_unknown_members: false,
+                kind: crate::ObjectKind::Shape,
             }),
             crate::TypeData::from(crate::Object {
                 prototype: None,
@@ -11233,6 +11243,7 @@ static OBJECT_LOCAL_TYPES: std::sync::LazyLock<[crate::TypeData; 67]> =
                     },
                 ]),
                 has_unknown_members: false,
+                kind: crate::ObjectKind::Shape,
             }),
         ]
     });
@@ -11512,6 +11523,7 @@ static OBJECT_CONSTRUCTOR_LOCAL_TYPES: std::sync::LazyLock<[crate::TypeData; 61]
                     ty: crate::RawTypeId::Local(crate::TypeId::new(25)).into(),
                 }]),
                 has_unknown_members: false,
+                kind: crate::ObjectKind::Shape,
             }),
             crate::TypeData::from(crate::GenericTypeParameter {
                 is_const: false,
@@ -11659,6 +11671,7 @@ static OBJECT_CONSTRUCTOR_LOCAL_TYPES: std::sync::LazyLock<[crate::TypeData; 61]
                 prototype: None,
                 members: Box::new([]),
                 has_unknown_members: false,
+                kind: crate::ObjectKind::Shape,
             }),
             crate::TypeData::from(crate::GenericTypeParameter {
                 is_const: false,
@@ -11910,6 +11923,7 @@ static OBJECT_CONSTRUCTOR_LOCAL_TYPES: std::sync::LazyLock<[crate::TypeData; 61]
                     },
                 ]),
                 has_unknown_members: false,
+                kind: crate::ObjectKind::Shape,
             }),
             crate::TypeData::from(crate::Object {
                 prototype: None,
@@ -11928,6 +11942,7 @@ static OBJECT_CONSTRUCTOR_LOCAL_TYPES: std::sync::LazyLock<[crate::TypeData; 61]
                     },
                 ]),
                 has_unknown_members: false,
+                kind: crate::ObjectKind::Shape,
             }),
             crate::TypeData::from(crate::Object {
                 prototype: None,
@@ -11942,6 +11957,7 @@ static OBJECT_CONSTRUCTOR_LOCAL_TYPES: std::sync::LazyLock<[crate::TypeData; 61]
                     },
                 ]),
                 has_unknown_members: false,
+                kind: crate::ObjectKind::Shape,
             }),
             crate::TypeData::from(crate::Object {
                 prototype: None,
@@ -11964,6 +11980,7 @@ static OBJECT_CONSTRUCTOR_LOCAL_TYPES: std::sync::LazyLock<[crate::TypeData; 61]
                     },
                 ]),
                 has_unknown_members: false,
+                kind: crate::ObjectKind::Shape,
             }),
         ]
     });
@@ -12374,6 +12391,7 @@ static CALLABLE_FUNCTION_LOCAL_TYPES: std::sync::LazyLock<[crate::TypeData; 16]>
                     },
                 ]),
                 has_unknown_members: false,
+                kind: crate::ObjectKind::Shape,
             }),
             crate::TypeData::from(crate::Object {
                 prototype: None,
@@ -12388,6 +12406,7 @@ static CALLABLE_FUNCTION_LOCAL_TYPES: std::sync::LazyLock<[crate::TypeData; 16]>
                     },
                 ]),
                 has_unknown_members: false,
+                kind: crate::ObjectKind::Shape,
             }),
         ]
     });
@@ -12554,6 +12573,7 @@ static NEWABLE_FUNCTION_LOCAL_TYPES: std::sync::LazyLock<[crate::TypeData; 14]> 
                     },
                 ]),
                 has_unknown_members: false,
+                kind: crate::ObjectKind::Shape,
             }),
             crate::TypeData::from(crate::Object {
                 prototype: None,
@@ -12568,6 +12588,7 @@ static NEWABLE_FUNCTION_LOCAL_TYPES: std::sync::LazyLock<[crate::TypeData; 14]> 
                     },
                 ]),
                 has_unknown_members: false,
+                kind: crate::ObjectKind::Shape,
             }),
         ]
     });
@@ -13378,6 +13399,7 @@ static STRING_LOCAL_TYPES: std::sync::LazyLock<[crate::TypeData; 93]> =
                     ty: crate::RawTypeId::Local(crate::TypeId::new(60)).into(),
                 }]),
                 has_unknown_members: false,
+                kind: crate::ObjectKind::Shape,
             }),
             crate::TypeData::Function(Box::new(crate::Function {
                 is_async: false,
@@ -13426,6 +13448,7 @@ static STRING_LOCAL_TYPES: std::sync::LazyLock<[crate::TypeData; 93]> =
                     ty: crate::RawTypeId::Local(crate::TypeId::new(63)).into(),
                 }]),
                 has_unknown_members: false,
+                kind: crate::ObjectKind::Shape,
             }),
             crate::TypeData::Function(Box::new(crate::Function {
                 is_async: false,
@@ -13480,6 +13503,7 @@ static STRING_LOCAL_TYPES: std::sync::LazyLock<[crate::TypeData; 93]> =
                     ty: crate::RawTypeId::Local(crate::TypeId::new(66)).into(),
                 }]),
                 has_unknown_members: false,
+                kind: crate::ObjectKind::Shape,
             }),
             crate::TypeData::Function(Box::new(crate::Function {
                 is_async: false,
@@ -13528,6 +13552,7 @@ static STRING_LOCAL_TYPES: std::sync::LazyLock<[crate::TypeData; 93]> =
                     ty: crate::RawTypeId::Local(crate::TypeId::new(69)).into(),
                 }]),
                 has_unknown_members: false,
+                kind: crate::ObjectKind::Shape,
             }),
             crate::TypeData::Function(Box::new(crate::Function {
                 is_async: false,
@@ -13576,6 +13601,7 @@ static STRING_LOCAL_TYPES: std::sync::LazyLock<[crate::TypeData; 93]> =
                     ty: crate::RawTypeId::Local(crate::TypeId::new(72)).into(),
                 }]),
                 has_unknown_members: false,
+                kind: crate::ObjectKind::Shape,
             }),
             crate::TypeData::Function(Box::new(crate::Function {
                 is_async: false,
@@ -13687,6 +13713,7 @@ static STRING_LOCAL_TYPES: std::sync::LazyLock<[crate::TypeData; 93]> =
                     ty: crate::RawTypeId::Local(crate::TypeId::new(83)).into(),
                 }]),
                 has_unknown_members: false,
+                kind: crate::ObjectKind::Shape,
             }),
             crate::TypeData::Function(Box::new(crate::Function {
                 is_async: false,
@@ -13723,6 +13750,7 @@ static STRING_LOCAL_TYPES: std::sync::LazyLock<[crate::TypeData; 93]> =
                     },
                 ]),
                 has_unknown_members: false,
+                kind: crate::ObjectKind::Shape,
             }),
             crate::TypeData::from(crate::Object {
                 prototype: None,
@@ -13737,6 +13765,7 @@ static STRING_LOCAL_TYPES: std::sync::LazyLock<[crate::TypeData; 93]> =
                     },
                 ]),
                 has_unknown_members: false,
+                kind: crate::ObjectKind::Shape,
             }),
             crate::TypeData::from(crate::Object {
                 prototype: None,
@@ -13759,6 +13788,7 @@ static STRING_LOCAL_TYPES: std::sync::LazyLock<[crate::TypeData; 93]> =
                     },
                 ]),
                 has_unknown_members: false,
+                kind: crate::ObjectKind::Shape,
             }),
             crate::TypeData::from(crate::Object {
                 prototype: None,
@@ -13773,6 +13803,7 @@ static STRING_LOCAL_TYPES: std::sync::LazyLock<[crate::TypeData; 93]> =
                     },
                 ]),
                 has_unknown_members: false,
+                kind: crate::ObjectKind::Shape,
             }),
             crate::TypeData::from(crate::Object {
                 prototype: None,
@@ -13787,6 +13818,7 @@ static STRING_LOCAL_TYPES: std::sync::LazyLock<[crate::TypeData; 93]> =
                     },
                 ]),
                 has_unknown_members: false,
+                kind: crate::ObjectKind::Shape,
             }),
             crate::TypeData::from(crate::Object {
                 prototype: None,
@@ -13801,6 +13833,7 @@ static STRING_LOCAL_TYPES: std::sync::LazyLock<[crate::TypeData; 93]> =
                     },
                 ]),
                 has_unknown_members: false,
+                kind: crate::ObjectKind::Shape,
             }),
             crate::TypeData::from(crate::Object {
                 prototype: None,
@@ -13815,6 +13848,7 @@ static STRING_LOCAL_TYPES: std::sync::LazyLock<[crate::TypeData; 93]> =
                     },
                 ]),
                 has_unknown_members: false,
+                kind: crate::ObjectKind::Shape,
             }),
         ]
     });
@@ -13913,6 +13947,7 @@ static STRING_CONSTRUCTOR_LOCAL_TYPES: std::sync::LazyLock<[crate::TypeData; 13]
                     ty: crate::RawTypeId::Local(crate::TypeId::new(9)).into(),
                 }]),
                 has_unknown_members: false,
+                kind: crate::ObjectKind::Shape,
             }),
             crate::TypeData::instance_of(crate::TypeInstance {
                 ty: crate::globals::GLOBAL_ARRAY_ID.into(),
@@ -16020,6 +16055,7 @@ static DATE_LOCAL_TYPES: std::sync::LazyLock<[crate::TypeData; 72]> =
                     },
                 ]),
                 has_unknown_members: false,
+                kind: crate::ObjectKind::Shape,
             }),
             crate::TypeData::from(crate::Object {
                 prototype: None,
@@ -16034,6 +16070,7 @@ static DATE_LOCAL_TYPES: std::sync::LazyLock<[crate::TypeData; 72]> =
                     },
                 ]),
                 has_unknown_members: false,
+                kind: crate::ObjectKind::Shape,
             }),
             crate::TypeData::from(crate::Object {
                 prototype: None,
@@ -16048,6 +16085,7 @@ static DATE_LOCAL_TYPES: std::sync::LazyLock<[crate::TypeData; 72]> =
                     },
                 ]),
                 has_unknown_members: false,
+                kind: crate::ObjectKind::Shape,
             }),
             crate::TypeData::from(crate::Object {
                 prototype: None,
@@ -16070,6 +16108,7 @@ static DATE_LOCAL_TYPES: std::sync::LazyLock<[crate::TypeData; 72]> =
                     },
                 ]),
                 has_unknown_members: false,
+                kind: crate::ObjectKind::Shape,
             }),
         ]
     });
@@ -16635,6 +16674,7 @@ static REG_EXP_LOCAL_TYPES: std::sync::LazyLock<[crate::TypeData; 25]> =
                     },
                 ]),
                 has_unknown_members: false,
+                kind: crate::ObjectKind::Shape,
             }),
         ]
     });
@@ -17418,6 +17458,7 @@ static JSON_LOCAL_TYPES: std::sync::LazyLock<[crate::TypeData; 9]> =
                     },
                 ]),
                 has_unknown_members: false,
+                kind: crate::ObjectKind::Shape,
             }),
         ]
     });
@@ -18320,6 +18361,7 @@ static READONLY_ARRAY_LOCAL_TYPES: std::sync::LazyLock<[crate::TypeData; 67]> =
                     },
                 ]),
                 has_unknown_members: false,
+                kind: crate::ObjectKind::Shape,
             }),
             crate::TypeData::from(crate::Object {
                 prototype: None,
@@ -18334,6 +18376,7 @@ static READONLY_ARRAY_LOCAL_TYPES: std::sync::LazyLock<[crate::TypeData; 67]> =
                     },
                 ]),
                 has_unknown_members: false,
+                kind: crate::ObjectKind::Shape,
             }),
             crate::TypeData::from(crate::Object {
                 prototype: None,
@@ -18348,6 +18391,7 @@ static READONLY_ARRAY_LOCAL_TYPES: std::sync::LazyLock<[crate::TypeData; 67]> =
                     },
                 ]),
                 has_unknown_members: false,
+                kind: crate::ObjectKind::Shape,
             }),
             crate::TypeData::from(crate::Object {
                 prototype: None,
@@ -18362,6 +18406,7 @@ static READONLY_ARRAY_LOCAL_TYPES: std::sync::LazyLock<[crate::TypeData; 67]> =
                     },
                 ]),
                 has_unknown_members: false,
+                kind: crate::ObjectKind::Shape,
             }),
             crate::TypeData::from(crate::Object {
                 prototype: None,
@@ -18380,6 +18425,7 @@ static READONLY_ARRAY_LOCAL_TYPES: std::sync::LazyLock<[crate::TypeData; 67]> =
                     },
                 ]),
                 has_unknown_members: false,
+                kind: crate::ObjectKind::Shape,
             }),
             crate::TypeData::from(crate::Object {
                 prototype: None,
@@ -18398,6 +18444,7 @@ static READONLY_ARRAY_LOCAL_TYPES: std::sync::LazyLock<[crate::TypeData; 67]> =
                     },
                 ]),
                 has_unknown_members: false,
+                kind: crate::ObjectKind::Shape,
             }),
             crate::TypeData::from(crate::Object {
                 prototype: None,
@@ -18412,6 +18459,7 @@ static READONLY_ARRAY_LOCAL_TYPES: std::sync::LazyLock<[crate::TypeData; 67]> =
                     },
                 ]),
                 has_unknown_members: false,
+                kind: crate::ObjectKind::Shape,
             }),
         ]
     });
@@ -19808,6 +19856,7 @@ static ARRAY_LOCAL_TYPES: std::sync::LazyLock<[crate::TypeData; 96]> =
                     },
                 ]),
                 has_unknown_members: false,
+                kind: crate::ObjectKind::Shape,
             }),
             crate::TypeData::from(crate::Object {
                 prototype: None,
@@ -19822,6 +19871,7 @@ static ARRAY_LOCAL_TYPES: std::sync::LazyLock<[crate::TypeData; 96]> =
                     },
                 ]),
                 has_unknown_members: false,
+                kind: crate::ObjectKind::Shape,
             }),
             crate::TypeData::from(crate::Object {
                 prototype: None,
@@ -19836,6 +19886,7 @@ static ARRAY_LOCAL_TYPES: std::sync::LazyLock<[crate::TypeData; 96]> =
                     },
                 ]),
                 has_unknown_members: false,
+                kind: crate::ObjectKind::Shape,
             }),
             crate::TypeData::from(crate::Object {
                 prototype: None,
@@ -19850,6 +19901,7 @@ static ARRAY_LOCAL_TYPES: std::sync::LazyLock<[crate::TypeData; 96]> =
                     },
                 ]),
                 has_unknown_members: false,
+                kind: crate::ObjectKind::Shape,
             }),
             crate::TypeData::from(crate::Object {
                 prototype: None,
@@ -19864,6 +19916,7 @@ static ARRAY_LOCAL_TYPES: std::sync::LazyLock<[crate::TypeData; 96]> =
                     },
                 ]),
                 has_unknown_members: false,
+                kind: crate::ObjectKind::Shape,
             }),
             crate::TypeData::from(crate::Object {
                 prototype: None,
@@ -19882,6 +19935,7 @@ static ARRAY_LOCAL_TYPES: std::sync::LazyLock<[crate::TypeData; 96]> =
                     },
                 ]),
                 has_unknown_members: false,
+                kind: crate::ObjectKind::Shape,
             }),
             crate::TypeData::from(crate::Object {
                 prototype: None,
@@ -19900,6 +19954,7 @@ static ARRAY_LOCAL_TYPES: std::sync::LazyLock<[crate::TypeData; 96]> =
                     },
                 ]),
                 has_unknown_members: false,
+                kind: crate::ObjectKind::Shape,
             }),
             crate::TypeData::from(crate::Object {
                 prototype: None,
@@ -19914,6 +19969,7 @@ static ARRAY_LOCAL_TYPES: std::sync::LazyLock<[crate::TypeData; 96]> =
                     },
                 ]),
                 has_unknown_members: false,
+                kind: crate::ObjectKind::Shape,
             }),
             crate::TypeData::from(crate::Object {
                 prototype: None,
@@ -19936,6 +19992,7 @@ static ARRAY_LOCAL_TYPES: std::sync::LazyLock<[crate::TypeData; 96]> =
                     },
                 ]),
                 has_unknown_members: false,
+                kind: crate::ObjectKind::Shape,
             }),
         ]
     });
@@ -20235,6 +20292,7 @@ static ARRAY_CONSTRUCTOR_LOCAL_TYPES: std::sync::LazyLock<[crate::TypeData; 22]>
                     },
                 ]),
                 has_unknown_members: false,
+                kind: crate::ObjectKind::Shape,
             }),
         ]
     });
@@ -20665,6 +20723,7 @@ static NON_NULLABLE_LOCAL_TYPES: std::sync::LazyLock<[crate::TypeData; 3]> =
                 prototype: None,
                 members: Box::new([]),
                 has_unknown_members: false,
+                kind: crate::ObjectKind::Shape,
             }),
             crate::TypeData::Intersection(Box::new(crate::Intersection(Box::new([
                 crate::RawTypeId::Local(crate::TypeId::new(0)).into(),
@@ -21393,6 +21452,7 @@ static DATA_VIEW_LOCAL_TYPES: std::sync::LazyLock<[crate::TypeData; 24]> =
                     ty: crate::globals::GLOBAL_NEVER_KEYWORD_ID.into(),
                 }]),
                 has_unknown_members: false,
+                kind: crate::ObjectKind::Shape,
             }),
             crate::TypeData::Intersection(Box::new(crate::Intersection(Box::new([
                 crate::RawTypeId::Local(crate::TypeId::new(0)).into(),
@@ -21463,6 +21523,7 @@ static DATA_VIEW_CONSTRUCTOR_LOCAL_TYPES: std::sync::LazyLock<[crate::TypeData; 
                     ty: crate::globals::GLOBAL_NEVER_KEYWORD_ID.into(),
                 }]),
                 has_unknown_members: false,
+                kind: crate::ObjectKind::Shape,
             }),
             crate::TypeData::Intersection(Box::new(crate::Intersection(Box::new([
                 crate::RawTypeId::Local(crate::TypeId::new(0)).into(),
@@ -22682,6 +22743,7 @@ static INT8_ARRAY_LOCAL_TYPES: std::sync::LazyLock<[crate::TypeData; 80]> =
                     },
                 ]),
                 has_unknown_members: false,
+                kind: crate::ObjectKind::Shape,
             }),
             crate::TypeData::from(crate::Object {
                 prototype: None,
@@ -22700,6 +22762,7 @@ static INT8_ARRAY_LOCAL_TYPES: std::sync::LazyLock<[crate::TypeData; 80]> =
                     },
                 ]),
                 has_unknown_members: false,
+                kind: crate::ObjectKind::Shape,
             }),
             crate::TypeData::from(crate::Object {
                 prototype: None,
@@ -22714,6 +22777,7 @@ static INT8_ARRAY_LOCAL_TYPES: std::sync::LazyLock<[crate::TypeData; 80]> =
                     },
                 ]),
                 has_unknown_members: false,
+                kind: crate::ObjectKind::Shape,
             }),
             crate::TypeData::from(crate::Object {
                 prototype: None,
@@ -22736,6 +22800,7 @@ static INT8_ARRAY_LOCAL_TYPES: std::sync::LazyLock<[crate::TypeData; 80]> =
                     },
                 ]),
                 has_unknown_members: false,
+                kind: crate::ObjectKind::Shape,
             }),
         ]
     });
@@ -23063,6 +23128,7 @@ static INT8_ARRAY_CONSTRUCTOR_LOCAL_TYPES: std::sync::LazyLock<[crate::TypeData;
                     },
                 ]),
                 has_unknown_members: false,
+                kind: crate::ObjectKind::Shape,
             }),
         ]
     });
@@ -24235,6 +24301,7 @@ static UINT8_ARRAY_LOCAL_TYPES: std::sync::LazyLock<[crate::TypeData; 80]> =
                     },
                 ]),
                 has_unknown_members: false,
+                kind: crate::ObjectKind::Shape,
             }),
             crate::TypeData::from(crate::Object {
                 prototype: None,
@@ -24253,6 +24320,7 @@ static UINT8_ARRAY_LOCAL_TYPES: std::sync::LazyLock<[crate::TypeData; 80]> =
                     },
                 ]),
                 has_unknown_members: false,
+                kind: crate::ObjectKind::Shape,
             }),
             crate::TypeData::from(crate::Object {
                 prototype: None,
@@ -24267,6 +24335,7 @@ static UINT8_ARRAY_LOCAL_TYPES: std::sync::LazyLock<[crate::TypeData; 80]> =
                     },
                 ]),
                 has_unknown_members: false,
+                kind: crate::ObjectKind::Shape,
             }),
             crate::TypeData::from(crate::Object {
                 prototype: None,
@@ -24289,6 +24358,7 @@ static UINT8_ARRAY_LOCAL_TYPES: std::sync::LazyLock<[crate::TypeData; 80]> =
                     },
                 ]),
                 has_unknown_members: false,
+                kind: crate::ObjectKind::Shape,
             }),
         ]
     });
@@ -24616,6 +24686,7 @@ static UINT8_ARRAY_CONSTRUCTOR_LOCAL_TYPES: std::sync::LazyLock<[crate::TypeData
                     },
                 ]),
                 has_unknown_members: false,
+                kind: crate::ObjectKind::Shape,
             }),
         ]
     });
@@ -25788,6 +25859,7 @@ static UINT8_CLAMPED_ARRAY_LOCAL_TYPES: std::sync::LazyLock<[crate::TypeData; 80
                     },
                 ]),
                 has_unknown_members: false,
+                kind: crate::ObjectKind::Shape,
             }),
             crate::TypeData::from(crate::Object {
                 prototype: None,
@@ -25806,6 +25878,7 @@ static UINT8_CLAMPED_ARRAY_LOCAL_TYPES: std::sync::LazyLock<[crate::TypeData; 80
                     },
                 ]),
                 has_unknown_members: false,
+                kind: crate::ObjectKind::Shape,
             }),
             crate::TypeData::from(crate::Object {
                 prototype: None,
@@ -25820,6 +25893,7 @@ static UINT8_CLAMPED_ARRAY_LOCAL_TYPES: std::sync::LazyLock<[crate::TypeData; 80
                     },
                 ]),
                 has_unknown_members: false,
+                kind: crate::ObjectKind::Shape,
             }),
             crate::TypeData::from(crate::Object {
                 prototype: None,
@@ -25842,6 +25916,7 @@ static UINT8_CLAMPED_ARRAY_LOCAL_TYPES: std::sync::LazyLock<[crate::TypeData; 80
                     },
                 ]),
                 has_unknown_members: false,
+                kind: crate::ObjectKind::Shape,
             }),
         ]
     });
@@ -26169,6 +26244,7 @@ static UINT8_CLAMPED_ARRAY_CONSTRUCTOR_LOCAL_TYPES: std::sync::LazyLock<[crate::
                     },
                 ]),
                 has_unknown_members: false,
+                kind: crate::ObjectKind::Shape,
             }),
         ]
     });
@@ -27341,6 +27417,7 @@ static INT16_ARRAY_LOCAL_TYPES: std::sync::LazyLock<[crate::TypeData; 80]> =
                     },
                 ]),
                 has_unknown_members: false,
+                kind: crate::ObjectKind::Shape,
             }),
             crate::TypeData::from(crate::Object {
                 prototype: None,
@@ -27359,6 +27436,7 @@ static INT16_ARRAY_LOCAL_TYPES: std::sync::LazyLock<[crate::TypeData; 80]> =
                     },
                 ]),
                 has_unknown_members: false,
+                kind: crate::ObjectKind::Shape,
             }),
             crate::TypeData::from(crate::Object {
                 prototype: None,
@@ -27373,6 +27451,7 @@ static INT16_ARRAY_LOCAL_TYPES: std::sync::LazyLock<[crate::TypeData; 80]> =
                     },
                 ]),
                 has_unknown_members: false,
+                kind: crate::ObjectKind::Shape,
             }),
             crate::TypeData::from(crate::Object {
                 prototype: None,
@@ -27395,6 +27474,7 @@ static INT16_ARRAY_LOCAL_TYPES: std::sync::LazyLock<[crate::TypeData; 80]> =
                     },
                 ]),
                 has_unknown_members: false,
+                kind: crate::ObjectKind::Shape,
             }),
         ]
     });
@@ -27722,6 +27802,7 @@ static INT16_ARRAY_CONSTRUCTOR_LOCAL_TYPES: std::sync::LazyLock<[crate::TypeData
                     },
                 ]),
                 has_unknown_members: false,
+                kind: crate::ObjectKind::Shape,
             }),
         ]
     });
@@ -28894,6 +28975,7 @@ static UINT16_ARRAY_LOCAL_TYPES: std::sync::LazyLock<[crate::TypeData; 80]> =
                     },
                 ]),
                 has_unknown_members: false,
+                kind: crate::ObjectKind::Shape,
             }),
             crate::TypeData::from(crate::Object {
                 prototype: None,
@@ -28912,6 +28994,7 @@ static UINT16_ARRAY_LOCAL_TYPES: std::sync::LazyLock<[crate::TypeData; 80]> =
                     },
                 ]),
                 has_unknown_members: false,
+                kind: crate::ObjectKind::Shape,
             }),
             crate::TypeData::from(crate::Object {
                 prototype: None,
@@ -28926,6 +29009,7 @@ static UINT16_ARRAY_LOCAL_TYPES: std::sync::LazyLock<[crate::TypeData; 80]> =
                     },
                 ]),
                 has_unknown_members: false,
+                kind: crate::ObjectKind::Shape,
             }),
             crate::TypeData::from(crate::Object {
                 prototype: None,
@@ -28948,6 +29032,7 @@ static UINT16_ARRAY_LOCAL_TYPES: std::sync::LazyLock<[crate::TypeData; 80]> =
                     },
                 ]),
                 has_unknown_members: false,
+                kind: crate::ObjectKind::Shape,
             }),
         ]
     });
@@ -29275,6 +29360,7 @@ static UINT16_ARRAY_CONSTRUCTOR_LOCAL_TYPES: std::sync::LazyLock<[crate::TypeDat
                     },
                 ]),
                 has_unknown_members: false,
+                kind: crate::ObjectKind::Shape,
             }),
         ]
     });
@@ -30447,6 +30533,7 @@ static INT32_ARRAY_LOCAL_TYPES: std::sync::LazyLock<[crate::TypeData; 80]> =
                     },
                 ]),
                 has_unknown_members: false,
+                kind: crate::ObjectKind::Shape,
             }),
             crate::TypeData::from(crate::Object {
                 prototype: None,
@@ -30465,6 +30552,7 @@ static INT32_ARRAY_LOCAL_TYPES: std::sync::LazyLock<[crate::TypeData; 80]> =
                     },
                 ]),
                 has_unknown_members: false,
+                kind: crate::ObjectKind::Shape,
             }),
             crate::TypeData::from(crate::Object {
                 prototype: None,
@@ -30479,6 +30567,7 @@ static INT32_ARRAY_LOCAL_TYPES: std::sync::LazyLock<[crate::TypeData; 80]> =
                     },
                 ]),
                 has_unknown_members: false,
+                kind: crate::ObjectKind::Shape,
             }),
             crate::TypeData::from(crate::Object {
                 prototype: None,
@@ -30501,6 +30590,7 @@ static INT32_ARRAY_LOCAL_TYPES: std::sync::LazyLock<[crate::TypeData; 80]> =
                     },
                 ]),
                 has_unknown_members: false,
+                kind: crate::ObjectKind::Shape,
             }),
         ]
     });
@@ -30828,6 +30918,7 @@ static INT32_ARRAY_CONSTRUCTOR_LOCAL_TYPES: std::sync::LazyLock<[crate::TypeData
                     },
                 ]),
                 has_unknown_members: false,
+                kind: crate::ObjectKind::Shape,
             }),
         ]
     });
@@ -32000,6 +32091,7 @@ static UINT32_ARRAY_LOCAL_TYPES: std::sync::LazyLock<[crate::TypeData; 80]> =
                     },
                 ]),
                 has_unknown_members: false,
+                kind: crate::ObjectKind::Shape,
             }),
             crate::TypeData::from(crate::Object {
                 prototype: None,
@@ -32018,6 +32110,7 @@ static UINT32_ARRAY_LOCAL_TYPES: std::sync::LazyLock<[crate::TypeData; 80]> =
                     },
                 ]),
                 has_unknown_members: false,
+                kind: crate::ObjectKind::Shape,
             }),
             crate::TypeData::from(crate::Object {
                 prototype: None,
@@ -32032,6 +32125,7 @@ static UINT32_ARRAY_LOCAL_TYPES: std::sync::LazyLock<[crate::TypeData; 80]> =
                     },
                 ]),
                 has_unknown_members: false,
+                kind: crate::ObjectKind::Shape,
             }),
             crate::TypeData::from(crate::Object {
                 prototype: None,
@@ -32054,6 +32148,7 @@ static UINT32_ARRAY_LOCAL_TYPES: std::sync::LazyLock<[crate::TypeData; 80]> =
                     },
                 ]),
                 has_unknown_members: false,
+                kind: crate::ObjectKind::Shape,
             }),
         ]
     });
@@ -32381,6 +32476,7 @@ static UINT32_ARRAY_CONSTRUCTOR_LOCAL_TYPES: std::sync::LazyLock<[crate::TypeDat
                     },
                 ]),
                 has_unknown_members: false,
+                kind: crate::ObjectKind::Shape,
             }),
         ]
     });
@@ -33553,6 +33649,7 @@ static FLOAT32_ARRAY_LOCAL_TYPES: std::sync::LazyLock<[crate::TypeData; 80]> =
                     },
                 ]),
                 has_unknown_members: false,
+                kind: crate::ObjectKind::Shape,
             }),
             crate::TypeData::from(crate::Object {
                 prototype: None,
@@ -33571,6 +33668,7 @@ static FLOAT32_ARRAY_LOCAL_TYPES: std::sync::LazyLock<[crate::TypeData; 80]> =
                     },
                 ]),
                 has_unknown_members: false,
+                kind: crate::ObjectKind::Shape,
             }),
             crate::TypeData::from(crate::Object {
                 prototype: None,
@@ -33585,6 +33683,7 @@ static FLOAT32_ARRAY_LOCAL_TYPES: std::sync::LazyLock<[crate::TypeData; 80]> =
                     },
                 ]),
                 has_unknown_members: false,
+                kind: crate::ObjectKind::Shape,
             }),
             crate::TypeData::from(crate::Object {
                 prototype: None,
@@ -33607,6 +33706,7 @@ static FLOAT32_ARRAY_LOCAL_TYPES: std::sync::LazyLock<[crate::TypeData; 80]> =
                     },
                 ]),
                 has_unknown_members: false,
+                kind: crate::ObjectKind::Shape,
             }),
         ]
     });
@@ -33934,6 +34034,7 @@ static FLOAT32_ARRAY_CONSTRUCTOR_LOCAL_TYPES: std::sync::LazyLock<[crate::TypeDa
                     },
                 ]),
                 has_unknown_members: false,
+                kind: crate::ObjectKind::Shape,
             }),
         ]
     });
@@ -35106,6 +35207,7 @@ static FLOAT64_ARRAY_LOCAL_TYPES: std::sync::LazyLock<[crate::TypeData; 80]> =
                     },
                 ]),
                 has_unknown_members: false,
+                kind: crate::ObjectKind::Shape,
             }),
             crate::TypeData::from(crate::Object {
                 prototype: None,
@@ -35124,6 +35226,7 @@ static FLOAT64_ARRAY_LOCAL_TYPES: std::sync::LazyLock<[crate::TypeData; 80]> =
                     },
                 ]),
                 has_unknown_members: false,
+                kind: crate::ObjectKind::Shape,
             }),
             crate::TypeData::from(crate::Object {
                 prototype: None,
@@ -35138,6 +35241,7 @@ static FLOAT64_ARRAY_LOCAL_TYPES: std::sync::LazyLock<[crate::TypeData; 80]> =
                     },
                 ]),
                 has_unknown_members: false,
+                kind: crate::ObjectKind::Shape,
             }),
             crate::TypeData::from(crate::Object {
                 prototype: None,
@@ -35160,6 +35264,7 @@ static FLOAT64_ARRAY_LOCAL_TYPES: std::sync::LazyLock<[crate::TypeData; 80]> =
                     },
                 ]),
                 has_unknown_members: false,
+                kind: crate::ObjectKind::Shape,
             }),
         ]
     });
@@ -35487,6 +35592,7 @@ static FLOAT64_ARRAY_CONSTRUCTOR_LOCAL_TYPES: std::sync::LazyLock<[crate::TypeDa
                     },
                 ]),
                 has_unknown_members: false,
+                kind: crate::ObjectKind::Shape,
             }),
         ]
     });
@@ -38892,6 +38998,7 @@ static PROMISE_CONSTRUCTOR_LOCAL_TYPES: std::sync::LazyLock<[crate::TypeData; 51
                     },
                 ]),
                 has_unknown_members: false,
+                kind: crate::ObjectKind::Shape,
             }),
             crate::TypeData::from(crate::Object {
                 prototype: None,
@@ -38906,6 +39013,7 @@ static PROMISE_CONSTRUCTOR_LOCAL_TYPES: std::sync::LazyLock<[crate::TypeData; 51
                     },
                 ]),
                 has_unknown_members: false,
+                kind: crate::ObjectKind::Shape,
             }),
             crate::TypeData::from(crate::Object {
                 prototype: None,
@@ -38924,6 +39032,7 @@ static PROMISE_CONSTRUCTOR_LOCAL_TYPES: std::sync::LazyLock<[crate::TypeData; 51
                     },
                 ]),
                 has_unknown_members: false,
+                kind: crate::ObjectKind::Shape,
             }),
             crate::TypeData::from(crate::Object {
                 prototype: None,
@@ -38938,6 +39047,7 @@ static PROMISE_CONSTRUCTOR_LOCAL_TYPES: std::sync::LazyLock<[crate::TypeData; 51
                     },
                 ]),
                 has_unknown_members: false,
+                kind: crate::ObjectKind::Shape,
             }),
             crate::TypeData::from(crate::Object {
                 prototype: None,
@@ -38952,6 +39062,7 @@ static PROMISE_CONSTRUCTOR_LOCAL_TYPES: std::sync::LazyLock<[crate::TypeData; 51
                     },
                 ]),
                 has_unknown_members: false,
+                kind: crate::ObjectKind::Shape,
             }),
         ]
     });
@@ -40597,6 +40708,7 @@ static CLASS_METHOD_DECORATOR_CONTEXT_LOCAL_TYPES: std::sync::LazyLock<[crate::T
                     },
                 ]),
                 has_unknown_members: false,
+                kind: crate::ObjectKind::Shape,
             }),
             crate::TypeData::Function(Box::new(crate::Function {
                 is_async: false,
@@ -40692,6 +40804,7 @@ static CLASS_GETTER_DECORATOR_CONTEXT_LOCAL_TYPES: std::sync::LazyLock<[crate::T
                     },
                 ]),
                 has_unknown_members: false,
+                kind: crate::ObjectKind::Shape,
             }),
             crate::TypeData::Function(Box::new(crate::Function {
                 is_async: false,
@@ -40791,6 +40904,7 @@ static CLASS_SETTER_DECORATOR_CONTEXT_LOCAL_TYPES: std::sync::LazyLock<[crate::T
                     },
                 ]),
                 has_unknown_members: false,
+                kind: crate::ObjectKind::Shape,
             }),
             crate::TypeData::Function(Box::new(crate::Function {
                 is_async: false,
@@ -40910,6 +41024,7 @@ static CLASS_ACCESSOR_DECORATOR_CONTEXT_LOCAL_TYPES: std::sync::LazyLock<[crate:
                     },
                 ]),
                 has_unknown_members: false,
+                kind: crate::ObjectKind::Shape,
             }),
             crate::TypeData::Function(Box::new(crate::Function {
                 is_async: false,
@@ -41125,6 +41240,7 @@ static CLASS_FIELD_DECORATOR_CONTEXT_LOCAL_TYPES: std::sync::LazyLock<[crate::Ty
                     },
                 ]),
                 has_unknown_members: false,
+                kind: crate::ObjectKind::Shape,
             }),
             crate::TypeData::Function(Box::new(crate::Function {
                 is_async: false,

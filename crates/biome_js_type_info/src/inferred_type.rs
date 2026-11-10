@@ -1976,6 +1976,7 @@ where
 #[cfg(test)]
 mod tests {
     use super::*;
+    use crate::ObjectKind;
     use crate::interned_types::{
         InternedClass, InternedConstructor, InternedFunction, InternedGenericTypeParameter,
         InternedInterface, InternedIntersection, InternedLiteral, InternedObject, InternedTuple,
@@ -2079,7 +2080,13 @@ mod tests {
     #[test]
     fn structural_shapes_are_non_nullish_but_not_always_truthy() {
         let db = TestDb::default();
-        let empty = TypeData::Object(InternedObject::new(&db, None, Box::default(), false));
+        let empty = TypeData::Object(InternedObject::new(
+            &db,
+            None,
+            Box::default(),
+            false,
+            ObjectKind::Shape,
+        ));
         let length = TypeData::Object(InternedObject::new(
             &db,
             None,
@@ -2089,6 +2096,7 @@ mod tests {
             }])
             .into_boxed_slice(),
             false,
+            ObjectKind::Shape,
         ));
         let interface = TypeData::Interface(InternedInterface::new(
             &db,
@@ -2165,6 +2173,13 @@ mod tests {
         ));
         for data in [
             class,
+            TypeData::Object(InternedObject::new(
+                &db,
+                None,
+                Box::default(),
+                false,
+                ObjectKind::Expression,
+            )),
             TypeData::Constructor(InternedConstructor::new(
                 &db,
                 Box::default(),
@@ -2311,7 +2326,13 @@ mod tests {
     #[test]
     fn stringification_combines_compound_types_iteratively() {
         let db = TestDb::default();
-        let object = TypeData::Object(InternedObject::new(&db, None, Box::default(), false));
+        let object = TypeData::Object(InternedObject::new(
+            &db,
+            None,
+            Box::default(),
+            false,
+            ObjectKind::Shape,
+        ));
         let custom_object = TypeData::Object(InternedObject::new(
             &db,
             None,
@@ -2321,6 +2342,7 @@ mod tests {
             }])
             .into_boxed_slice(),
             false,
+            ObjectKind::Shape,
         ));
         let union = TypeData::Union(InternedUnion::new(
             &db,
